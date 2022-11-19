@@ -6,7 +6,7 @@ pip3 install pypdf2 pdfminer
 ```
 
 ## Quick Start
-把`src`文件夹下的所有pdf文件命名，结果输出到`output`文件夹下。
+把`src`文件夹下的所有pdf文件命名，结果输出到`output`文件夹下，如果没有`output`文件夹则需要创建。
 ```shell
 python3 rename_pdf_with_title.py --input=src --output_dir=output
 ```
